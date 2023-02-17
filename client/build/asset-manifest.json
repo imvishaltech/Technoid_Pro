@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e75a484d.css",
+    "main.js": "/static/js/main.c1630ad0.js",
+    "static/media/ShakeHands.png": "/static/media/ShakeHands.5e1f6717a8c7788b68dd.png",
+    "static/media/About_img.jpeg": "/static/media/About_img.22ce7682b38bf9178c4a.jpeg",
+    "static/media/usa.png": "/static/media/usa.5e9c7793b963fa5e51fe.png",
+    "static/media/consulting_2.jpg": "/static/media/consulting_2.d585121aff0a7afbbe7f.jpg",
+    "index.html": "/index.html",
+    "main.e75a484d.css.map": "/static/css/main.e75a484d.css.map",
+    "main.c1630ad0.js.map": "/static/js/main.c1630ad0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e75a484d.css",
+    "static/js/main.c1630ad0.js"
+  ]
+}

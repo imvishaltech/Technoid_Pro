@@ -1,0 +1,201 @@
+.technoid {
+  position: relative;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mask {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+#PtagHome{color: grey;
+  top: 70px;
+  text-align: center;
+    
+  font-size: 6vh;
+    position: relative;
+}
+
+#H1_Home{    color: #423f3f;
+  top: 48px;
+    
+  position: relative;
+  font-size: 20vh;
+}
+
+#Home_ptag{color: #070000;
+  text-align: center;
+  font-size: 5vh;
+    position: relative;
+}
+
+#Home_p2{  color: grey;
+  
+ top:10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    /* display: block; */
+
+}
+.content {
+  color: #070000;
+  font-size: 20px;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  padding: 0 20px;
+}
+
+.ShakeHands {
+
+  animation: blinker 1.5s linear infinite;
+  top:10px;
+  width: 39%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.btn-light-hands {
+  background-color: #fff;
+  color: #000;
+  border-style: inset;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.shakehandDiv {
+  margin: 30px auto;
+}
+
+.btn_4 {border-style: in;
+  background-color: #fff;
+  color: #000;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  margin: 37px auto;
+}
+
+.btn_4:hover {
+  transform: scale(1.1);
+}
+
+
+
+@media (max-width: 992px) {
+  
+  #H1_Home{  color: #423f3f;
+  font-size: 25vh;
+  }
+  .content {
+  font-size: 15px;
+  padding: 0 30px;
+  }
+  .ShakeHands {
+  width: 50%;
+  }
+  #Home_p2{color: grey;
+  font-size: 15px;
+  }
+  }
+  
+  @media (max-width: 768px) {
+    #PtagHome{color: grey;
+      top: 70px;
+      text-align: center;
+        
+      font-size: 3vh;
+        position: relative;
+    }
+    .btn-light-hands {
+      background-color: #fff;
+      color: #000;
+      border-style: inset;
+      border-radius: 50px;
+      padding: 10px 20px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+  #H1_Home{
+  font-size: 9vh;
+  }
+  .content {
+  font-size: 12px;
+  padding: 0 20px;
+  }
+  .ShakeHands {
+  width: 80%;
+  }
+  #Home_p2{color: grey;
+    top:15px;
+    width:65%;
+  font-size: 20px;
+  }
+  }
+ 
+  @media (max-width: 500px) {
+    #PtagHome{color: grey;
+      top: 70px;
+      text-align: center;
+        
+      font-size: 3vh;
+        position: relative;
+    }
+    .btn-light-hands {
+      background-color: #fff;
+      color: #000;
+      border-style: inset;
+      border-radius: 50px;
+      padding: 10px 20px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    #H1_Home{    color: #423f3f;
+    font-size: 9vh;
+    }
+    .content {
+    font-size: 12px;
+    padding: 0 20px;
+    }
+    .ShakeHands {
+    width: 80%;
+    }
+    #Home_p2{color: grey;
+      top:15px;
+      width:65%;
+    font-size: 20px;
+    }
+    }
+  

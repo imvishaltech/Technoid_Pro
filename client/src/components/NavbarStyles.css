@@ -3,7 +3,8 @@
 } */
 
 .navbar {
-    margin: auto;
+    margin-top: 1%;
+    /* margin: auto; */
     /* margin-bottom: 195px; */
     display: flex;
     justify-content: center;

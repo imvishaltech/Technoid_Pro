@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import "./AboutRouteStyles.css";
 
-import About_img from "../assets/About_img.jpeg";
+import VideoBack2 from "../assets/VideoBack2.mp4";
 
 const AboutRoute= (props) => {
     const [isVisible, setIsVisible] = useState(true);
@@ -28,8 +28,15 @@ const AboutRoute= (props) => {
         <p id="about_tag">Empowering Your Business to Reach New Heights with Cutting-Edge Technology Solutions and Unwavering Expertise</p>
         <div className={`technoid3 ${isVisible ? "fadeIn" : "fadeOut"}`} ref={ref}>
             <div className="mask2">
+      <video autoPlay
+      loop
+      muted
+      playsInline
+      className='video-background_2'>
                 
-                <img id="consult"  src={About_img} alt="consulting-2" className="img-fluid" />
+      <source id="video-background_2"  src={VideoBack2}   type="video/mp4" />
+
+                </video>
             </div>
 
             <div className="heading">
@@ -41,3 +48,5 @@ const AboutRoute= (props) => {
     )
 }
 export default AboutRoute;
+
+// <img id="consult"  src={About_img} alt="consulting-2" className="img-fluid" />

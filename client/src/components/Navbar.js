@@ -23,7 +23,7 @@ const Navbar = () => {
         <nav className={color ? "navbar navbar-bg" : "navbar"}>
           <Link to="/" className="navbar-brand">
             <div id="title-names"> <div id="usa-img">
-            <img src={usa} alt="IntroImg" width="100%" height="44" />
+            <img src={usa} alt="IntroImg" width="110%" height="95" />
           </div></div>
             
           </Link>

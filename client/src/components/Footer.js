@@ -1,6 +1,7 @@
 import "./FooterStyles.css";
 import React from 'react';
 import { Link } from "react-router-dom"
+// import log from "../assets/log.png";
 import { FaHome, FaPhone, FaMailBulk, FaLinkedin, FaFacebook } from "react-icons/fa";
 const Footer = () => {
     return (
@@ -11,7 +12,7 @@ const Footer = () => {
         
                     <div class="footer-left">
         
-                        <h3>Technoid<span>logo</span></h3>
+                        <h3>Technoid<span> </span></h3>
         
                         <p class="footer-links">
                             <a href="/" class="link-1">Home</a>
@@ -56,7 +57,8 @@ const Footer = () => {
                         <FaMailBulk size={20} style={{ color: "#fff", marginRight: "2rem" }} />
                                     
                            
-                            <p><a href="mailto:Harshit@technoidusa.com"> Harshit@technoidusa.com</a></p>
+                            <p><a href="mailto:recruiting@technoidusa.com"> Recruiting@technoidusa.com</a></p>
+                        
                         </div>
         
                     </div>

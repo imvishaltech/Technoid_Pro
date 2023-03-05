@@ -1,5 +1,5 @@
 .video-background {
-    filter: brightness(30%);
+    filter: brightness(100%);
     margin:auto;
     position: relative;
     width: 100%;
@@ -14,3 +14,4 @@
     background: linear-gradient(270deg,#FF4838 0%,#FFC000 100%);
     opacity: 0.6;
 }
+
